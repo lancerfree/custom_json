@@ -1,0 +1,12 @@
+name: Custom Json
+description: Exports any data in json format that is not an entity
+package: Custom
+type: module
+
+core: '8.x'
+
+dependencies:
+  - rest:rest
+  - drupal:serialization
+
+

@@ -1,0 +1,4 @@
+custom_json.card_settings:
+  route_name: custom_json.card_settings
+  title: Card Block Settings
+  base_route: custom_json.card_settings

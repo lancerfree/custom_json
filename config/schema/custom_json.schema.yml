@@ -1,0 +1,23 @@
+custom_json.card_block.settings:
+  type: config_object
+  label: 'My Card Block settings'
+  mapping:
+    header_text:
+      label: 'header_text'
+      type: label
+    body_text:
+      label: 'body_text'
+      type: text
+      translatable: true
+    footer_text:
+      label: 'footer_text'
+      type: label
+    main_image_uri:
+      label: 'Main Image'
+      type: string
+    main_image_id:
+      label: 'Main Image ID File'
+      type: integer
+    shop_link:
+      label: 'Shop link'
+      type: string

@@ -1,0 +1,7 @@
+custom_json.card_settings:
+  path: '/admin/config/custom_json/card_block_settings'
+  defaults:
+    _form: '\Drupal\custom_json\Form\CardBlockSettingsForm'
+  requirements:
+    _permission: 'administer account settings'
+

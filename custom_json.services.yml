@@ -1,0 +1,6 @@
+services:
+  serializer.normalizer.string_data.custom_json_absolute_urls:
+    class: Drupal\custom_json\Normalizer\StringDataNormalizer
+    arguments: ['@config.factory']
+    tags:
+      - { name: normalizer, priority: 6 }
